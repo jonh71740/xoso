@@ -92,6 +92,9 @@
             .menu-loai-tro-choi{
                 display: none;
             }
+            .quick-select-group{
+                display: none;
+            }
         }
     </style>
   </head>
@@ -327,18 +330,15 @@
                       <!-- .card-body -->
                       <div class="card-body">
                         <div class="form-row">
-                            <!-- grid column -->
-                            <div class="col-6 col-md-6">
-                                <input type="text" class="form-control form-control-sm" placeholder="Dãy số">
-                            </div>
-                            <!-- /grid column -->
-                            <!-- grid column -->
-                            <div class="col-6 col-md-6">
-                                <button style="font-size: 12px;" type="button" class="btn btn-primary">Thêm</button>
-                                <button style="font-size: 12px;" type="button" class="btn btn-info btn-quick-select" data-toggle="dropdown" aria-expanded="false">Chọn nhanh
-                                    <span class="caret"></span>
-                                </button>
-                            </div>
+                                <div class="col-6 col-md-6 quick-select-group">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Dãy số">
+                                </div>
+                                <div class="col-6 col-md-6 quick-select-group">
+                                    <button style="font-size: 12px;" type="button" class="btn btn-primary">Thêm</button>
+                                    <button style="font-size: 12px;" type="button" class="btn btn-info btn-quick-select" data-toggle="dropdown" aria-expanded="false">Chọn nhanh
+                                        <span class="caret"></span>
+                                    </button>
+                                </div>
                             <!-- /grid column -->
                             
                             <div class="col-12 col-md-12">
@@ -489,68 +489,68 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x0">
+                                                <label class="custom-control-label" for="x0"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p1">
-                                                <label class="custom-control-label" for="p1"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x1">
+                                                <label class="custom-control-label" for="x1"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p2">
-                                                <label class="custom-control-label" for="p2"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x2">
+                                                <label class="custom-control-label" for="x2"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x3">
+                                                <label class="custom-control-label" for="x3"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x4">
+                                                <label class="custom-control-label" for="x4"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x5">
+                                                <label class="custom-control-label" for="x5"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x6">
+                                                <label class="custom-control-label" for="x6"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x7">
+                                                <label class="custom-control-label" for="x7"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x8">
+                                                <label class="custom-control-label" for="x8"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x9">
+                                                <label class="custom-control-label" for="x9"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
                                             <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="p3">
-                                                <label class="custom-control-label" for="p3"></label>
+                                                <input type="checkbox" class="custom-control-input" id="x10">
+                                                <label class="custom-control-label" for="x10"></label>
                                             </div>
                                         </td>
                                     </tr>
@@ -559,11 +559,11 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y0">
+                                            <label class="custom-control-label" for="y0"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number number-selected'><span> 00 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 00 </span><input type="text" value="705"></div></td>
                                         <td><div class='number'><span> 01 </span><input type="text" value="705"></div></td>
                                         <td><div class='number'><span> 02 </span><input type="text" value="705"></div></td>
                                         <td><div class='number'><span> 03 </span><input type="text" value="705"></div></td>
@@ -579,8 +579,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y1">
+                                            <label class="custom-control-label" for="y1"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
@@ -599,8 +599,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y2">
+                                            <label class="custom-control-label" for="y2"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 20 </span><input type="text" value="705"></div></td>
@@ -619,8 +619,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y3">
+                                            <label class="custom-control-label" for="y3"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 30 </span><input type="text" value="705"></div></td>
@@ -639,8 +639,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y4">
+                                            <label class="custom-control-label" for="y4"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 40 </span><input type="text" value="705"></div></td>
@@ -659,8 +659,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y5">
+                                            <label class="custom-control-label" for="y5"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
@@ -679,8 +679,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y6">
+                                            <label class="custom-control-label" for="y6"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
@@ -699,8 +699,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y7">
+                                            <label class="custom-control-label" for="y7"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
@@ -719,8 +719,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y8">
+                                            <label class="custom-control-label" for="y8"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
@@ -739,8 +739,8 @@
                                     <tr>
                                         <td class="align-middle col-checker">
                                         <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="p3">
-                                            <label class="custom-control-label" for="p3"></label>
+                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y9">
+                                            <label class="custom-control-label" for="y9"></label>
                                         </div>
                                         </td>
                                         <td><div class='number'><span> 90 </span><input type="text" value="705"></div></td>
