@@ -371,51 +371,75 @@
                                         <div class="tab-pane fade active show" id="card-home">
                                             <div class="row">
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1" checked="">
-                                                        <label class="custom-control-label" for="rd1">Tý(9)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g1">
+                                                        <label class="custom-control-label" for="g1">Tý(9)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Sửu(9)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g2">
+                                                        <label class="custom-control-label" for="g2">Sửu(9)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Dần(9)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g3">
+                                                        <label class="custom-control-label" for="g3">Dần(9)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Mão(9)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g4">
+                                                        <label class="custom-control-label" for="g4">Mão(9)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Thìn(8)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g5">
+                                                        <label class="custom-control-label" for="g5">Thìn(8)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Tị(8)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g6">
+                                                        <label class="custom-control-label" for="g6">Tị(8)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Ngọ(8)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g7">
+                                                        <label class="custom-control-label" for="g7">Ngọ(8)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Mùi(8)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g8">
+                                                        <label class="custom-control-label" for="g8">Mùi(8)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g9">
+                                                        <label class="custom-control-label" for="g9">Thân(8)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g10">
+                                                        <label class="custom-control-label" for="g10">Dậu(8)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g11">
+                                                        <label class="custom-control-label" for="g11">Tuất(8)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="g12">
+                                                        <label class="custom-control-label" for="g12">Hợi(8)</label>
                                                     </div>
                                                 </div>
                                             </div>
