@@ -95,6 +95,10 @@
             .quick-select-group{
                 display: none;
             }
+            .btn-account {
+                border:none !important;
+                padding-left: 0px !important;
+            }
         }
     </style>
   </head>
@@ -141,29 +145,27 @@
                 </li>
             </ul>
             <!-- /.navbar-nav -->
-            <!-- .navbar-form -->
-            <form class="form-inline my-2 my-lg-0">
-                <!-- .top-bar-search -->
-                <div class="top-bar-search d-flex">
-                <!-- .input-group -->
-                <div class="input-group has-clearable">
-                    <button type="button" class="close" aria-label="Close">
-                    <span aria-hidden="true">
-                        <i class="fa fa-times-circle"></i>
+                <div class="dropdown">
+                    <button style="min-height: 2.5rem; background: none;" class="btn-account d-md-flex" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                    <span class="user-avatar">
+                        <img src="assets/images/avatars/profile.jpg" alt="">
+                    </span>
+                    <span class="account-summary pr-lg-4 d-lg-block">
+                        <span class="account-name">username</span>
+                        <span class="account-description">5.000.000 coin</span>
                     </span>
                     </button>
-                    <div class="input-group-prepend">
-                    <span class="input-group-text">
-                        <span class="oi oi-magnifying-glass"></span>
-                    </span>
+                    <div class="dropdown-arrow dropdown-arrow-left"></div>
+                    <!-- .dropdown-menu -->
+                    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; top: 56px; left: 0px; will-change: top, left;">
+                    <a class="dropdown-item" href="#">
+                        <span class="dropdown-icon oi oi-person"></span> Profile</a>
+                    <a class="dropdown-item" href="#">
+                        <span class="dropdown-icon oi oi-account-logout"></span> Logout</a>
+                    
                     </div>
-                    <input type="text" class="form-control" aria-label="Search" placeholder="Type something..."> </div>
-                <!-- /.input-group -->
-                <!-- /.top-bar-search -->
+                    <!-- /.dropdown-menu -->
                 </div>
-                <!-- /.top-bar-search -->
-            </form>
-            <!-- /.navbar-form -->
             </div>
             <!-- /.navbar-collapse -->
         </nav>
