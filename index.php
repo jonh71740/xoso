@@ -915,6 +915,10 @@
             $('.number').click(function(){
                 $(this).toggleClass('number-selected');
             });
+
+            $('.number input').on('click', function(event) {
+                event.stopPropagation();
+            });
             
         });
     </script>
