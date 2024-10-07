@@ -82,6 +82,10 @@
             border-radius: 10px;
         }
 
+        .ma-cuoc-gan-day-item .text-right{
+            float: right;
+        }
+
 
         @media (min-width: 600px) {
             .btn-loai-tro-choi {
@@ -861,6 +865,72 @@
                         <!-- /.card-body -->
                     </section>
                     <!-- /.card -->
+
+                    <section class="card">
+                        <!-- .card-header -->
+                        <header class="card-header"><span>Mã cược gần đây</span></header>
+                        <!-- .card-body -->
+                        <div class="card-body">
+                            <section class="card card-expansion-item ma-cuoc-gan-day-item">
+                            <header class="card-header border-0" id="headingOne">
+                                <button class="btn btn-reset collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <span class="collapse-indicator mr-2">
+                                    <i class="fa fa-fw fa-caret-right"></i>
+                                </span>
+                                <span>2,200 #1</span>
+                                </button>
+                            </header>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                                <div class="card-body pt-0">
+                                    <h6>ĐỀ - HÀ NỘI</h6>
+                                    <div>
+                                        <span>Danh sách: </span>
+                                        <span class="text-right">00,01,02</span>
+                                    </div>
+                                    <div>
+                                        <span>Tổng điểm: </span>
+                                        <span class="text-right">3</span>
+                                    </div>
+                                    <div>
+                                        <span>Thành tiền: </span>
+                                        <span class="text-right">2,200</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </section>
+
+                            <section class="card card-expansion-item ma-cuoc-gan-day-item">
+                            <header class="card-header border-0" id="headingOne">
+                                <button class="btn btn-reset collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseOne">
+                                <span class="collapse-indicator mr-2">
+                                    <i class="fa fa-fw fa-caret-right"></i>
+                                </span>
+                                <span>9,200 #2</span>
+                                </button>
+                            </header>
+                            <div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                                <div class="card-body pt-0">
+                                    <h6>ĐỀ - HÀ NỘI</h6>
+                                    <div>
+                                        <span>Danh sách: </span>
+                                        <span class="text-right">05,06,07</span>
+                                    </div>
+                                    <div>
+                                        <span>Tổng điểm: </span>
+                                        <span class="text-right">9</span>
+                                    </div>
+                                    <div>
+                                        <span>Thành tiền: </span>
+                                        <span class="text-right">9,200</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </section>
+
+
+                        </div>
+                        <!-- /.card-body -->
+                    </section>
 
                     <!-- .card -->
                     <section class="card card-fluid">
