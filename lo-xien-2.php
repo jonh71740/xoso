@@ -94,15 +94,23 @@
 
         }
 
-        
-        @media (max-width: 600px) {
-            .number-left {
-                display: none;
-            }
-            .number-right {
-                line-height: 32px;
-            }
+
+
+
+        .card-lo-xien{
+            font-size: 14px;
         }
+        .lx-so-diem input{
+            padding: 8px !important;
+            height: 36px;
+            line-height: 15px;
+            font-size: 14px;
+            border-radius: 60px !important;
+            width: 100%;
+            text-align: center;
+        }
+
+        
 
 
         @media (min-width: 600px) {
@@ -1820,23 +1828,61 @@
                   <!-- grid column -->
                   <div class="col-12 col-lg-6 col-xl-3">
                     <!-- .card -->
-                    <section class="card">
+                    <section class="card card-lo-xien">
                         <!-- .card-header -->
-                        <header class="card-header"><span>Đặt cược</span> <span style="float: right;">Đề - Miền Bắc 1 </span></header>
+                        <header class="card-header"><span>Đặt cược</span> <span style="float: right;">Lô Xiên - Miền Bắc 1 </span></header>
                         <!-- .card-body -->
                         <div class="card-body">
-                            <div class="form-row">
-                                <!-- grid column -->
-                                <div class="col-md-4" style="padding: 5px;text-align: right;text-transform: uppercase; ">
+                        <div class="form-row">
+                                <div class="col-3 col-md-3" style="padding: 5px;text-align: right;text-transform: uppercase; font-size: 11px; line-height: 25px;">
+                                    
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span>Xiên 2</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span>Xiên 3</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span>Xiên 4</span>
+                                </div>
+                            </div>    
+
+                            <div class="form-row lx-so-xien">
+                                <div class="col-3 col-md-3" style="padding: 5px;text-align: right;text-transform: uppercase; font-size: 11px; line-height: 16px;">
+                                    Số xiên
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span style="line-height: 25px;">0</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span style="line-height: 25px;">1</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span style="line-height: 25px;">2</span>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="form-row lx-so-diem">
+                                <div class="col-3 col-md-3" style="padding: 5px;text-align: right;text-transform: uppercase; font-size: 11px; line-height: 25px;">
                                     Số điểm
                                 </div>
-                                <!-- /grid column -->
-                                <!-- grid column -->
-                                <div class="col-md-8">
+                                <div class="col-3 col-md-3">
                                     <input type="text" class="form-control" placeholder="0">
                                 </div>
-                                <!-- /grid column -->
+                                <div class="col-3 col-md-3">
+                                    <input type="text" class="form-control" placeholder="0">
+                                </div>
+                                <div class="col-3 col-md-3">
+                                    <input type="text" class="form-control" placeholder="0">
+                                </div>
                             </div>
+
+                            
+
+
                             <div class="form-row">
                                 <!-- grid column -->
                                 <div class="col-4 col-md-4" style="padding: 5px;text-align: right;text-transform: uppercase; ">
@@ -1855,30 +1901,47 @@
                             </div>
 
                             <div class="form-row">
-                                <!-- grid column -->
-                                <div class="col-md-4" style="font-weight:bold">
-                                    Tổng điểm
+                                <div class="col-4 col-md-4" style="font-weight:bold; text-transform: uppercase;">
+                                    Danh sách
                                 </div>
-                                <!-- /grid column -->
-                                <!-- grid column -->
-                                <div class="col-md-8">
-                                    999.999
+                                <div class="col-8 col-md-8">
+                                    00, 01, 02
                                 </div>
-                                <!-- /grid column -->
                             </div>
 
                             <div class="form-row">
-                                <!-- grid column -->
-                                <div class="col-md-4" style="font-weight:bold">
+                                <div class="col-4 col-md-4" style="font-weight:bold; text-transform: uppercase;">
                                     Thành tiền
                                 </div>
-                                <!-- /grid column -->
-                                <!-- grid column -->
-                                <div class="col-md-8">
-                                    1.000.0000.000 đ
+                                <div class="col-8 col-md-8">
                                 </div>
-                                <!-- /grid column -->
                             </div>
+
+                            <div class="form-row">
+                                <div class="col-4 col-md-4">
+                                    <span>Xiên 2</span>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    2.000.000đ
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-4 col-md-4">
+                                    <span>Xiên 3</span>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    3.000.000đ
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-4 col-md-4">
+                                    <span>Xiên 4</span>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    4.000.000đ
+                                </div>
+                            </div>
+
                         </div>
                         <!-- /.card-body -->
                     </section>

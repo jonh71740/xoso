@@ -66,14 +66,13 @@
             font-size: 10px;
         }
         
-        .table-select-number span{
-            font-weight: bold;
-        }
 
         .table-select-number .number{
             padding: 1px 1px;
             background: #efefef;
             border-radius: 10px;
+            font-size: 13px;
+            margin-left: -1px;
         }
 
         .table-select-number .number-selected{
@@ -82,30 +81,36 @@
             border-radius: 10px;
         }
 
-        .ma-cuoc-gan-day-item .text-right{
-            float: right;
+        .number-left{
+            float: left;
+            width: 50%;
+            font-size: 10px;
+        }
+
+        .number-right{
+            display: inline-block;
+            min-width: 50%;
+            font-weight: bold;
+
         }
 
 
 
-        @media (max-width: 600px) {
-            .table-select-number .span-gia{
-                font-weight: normal;
-                font-size: 10px; 
-                display: block;
-            }
-            .table-select-number .number input{
-                display:none;
-            }
 
-
+        .card-lo-xien{
+            font-size: 14px;
+        }
+        .lx-so-diem input{
+            padding: 8px !important;
+            height: 36px;
+            line-height: 15px;
+            font-size: 14px;
+            border-radius: 60px !important;
+            width: 100%;
+            text-align: center;
         }
 
-        @media (min-width: 600px) {
-            .table-select-number .span-gia{
-                display:none;
-            }
-        }
+        
 
 
         @media (min-width: 600px) {
@@ -203,7 +208,7 @@
           <!-- .page -->
           <div class="page">
             <!-- .page-inner -->
-            <div class="page-inner" style="padding:0">
+            <div class="page-inner">
               
               <!-- .page-section -->
               <div class="page-section">
@@ -211,22 +216,8 @@
                 <div class="row">
                   <!-- grid column -->
                   <div class="col-12 col-lg-12 col-xl-3">
-                    <!-- <button style="font-size: 12px;width: 50%;margin: 0 auto;display: block;margin-bottom: 10px;" type="button" class="btn btn-primary btn-loai-tro-choi" data-toggle="dropdown" aria-expanded="false">Danh mục trò chơi<span class="caret"></span>
-                    </button> -->
-
-                    <div class="row" style="background: #1957a3;">
-                        <div class="col-2">
-                        <button class="hamburger hamburger hamburger-squeeze js-hamburger d-lg-none btn-loai-tro-choi" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-                        </div>
-                        <div class="col-10">
-                            <span style="color: #fff; line-height: 35px;">Đề - Miền bắc 1</span>
-                        </div>
-                    </div>
-
+                    <button style="font-size: 12px;width: 50%;margin: 0 auto;display: block;margin-bottom: 10px;" type="button" class="btn btn-primary btn-loai-tro-choi" data-toggle="dropdown" aria-expanded="false">Danh mục trò chơi<span class="caret"></span>
+                    </button>
                     <!-- .card -->
                     <section class="card card-fluid menu-loai-tro-choi">
                         <nav id="stacked-menu" class="stacked-menu stacked-menu-has-collapsible">
@@ -369,7 +360,7 @@
                     <!-- .card -->
                     <section class="card card-fluid">
                       <!-- .card-body -->
-                      <div class="card-body" style="padding-left: 10px;">
+                      <div class="card-body">
                         <div class="form-row">
                                 <div class="col-6 col-md-6 quick-select-group">
                                     <input type="text" class="form-control form-control-sm" placeholder="Dãy số">
@@ -544,6 +535,92 @@
                                 </section>
                             </div>
 
+                            <style>
+                            .dau-giua-select {
+                                width: 100%;
+                                font-size: 13px;
+                            }
+                            .dau-giua-select .row{
+                                margin: 6px 0;
+                            }
+
+                            </style>
+
+                            <div class="dau-giua-select">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <span>Đầu</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-11">
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">1</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-info btn-xs">2</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">3</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">4</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">5</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">6</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">7</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">8</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">9</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <span>Giữa</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-11">
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">1</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">2</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">3</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">4</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">5</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">6</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">7</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">8</button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary btn-xs">9</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="" style="width: 100%;">
                                 <!-- .table -->
                                 <table class="table-select-number" style="width: 100%;">
@@ -628,16 +705,16 @@
                                             <label class="custom-control-label" for="y0"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 00 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 01 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 02 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 03 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 04 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 05 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 06 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 07 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 08 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 09 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 00 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 01 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 02 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 03 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 04 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 05 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 06 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 07 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 08 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 09 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -648,16 +725,16 @@
                                             <label class="custom-control-label" for="y1"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 12 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 13 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 14 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 15 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 16 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 17 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 18 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 19 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 12 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 13 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 14 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 15 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 16 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 17 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 18 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 19 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -668,16 +745,16 @@
                                             <label class="custom-control-label" for="y2"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 20 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 21 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 22 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 23 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 24 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 25 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 26 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 27 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 28 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 29 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 20 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 21 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 22 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 23 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 24 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 25 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 26 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 27 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 28 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 29 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -688,16 +765,16 @@
                                             <label class="custom-control-label" for="y3"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 30 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 31 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 32 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 33 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 34 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 35 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 36 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 37 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 38 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 39 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 30 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 31 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 32 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 33 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 34 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 35 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 36 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 37 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 38 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 39 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -708,16 +785,16 @@
                                             <label class="custom-control-label" for="y4"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 40 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 41 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 42 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 43 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 44 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 45 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 46 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 47 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 48 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 49 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 40 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 41 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 42 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 43 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 44 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 45 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 46 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 47 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 48 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 49 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -728,16 +805,16 @@
                                             <label class="custom-control-label" for="y5"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -748,16 +825,16 @@
                                             <label class="custom-control-label" for="y6"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -768,16 +845,16 @@
                                             <label class="custom-control-label" for="y7"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -788,16 +865,16 @@
                                             <label class="custom-control-label" for="y8"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 10 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 11 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     <!-- tr -->
@@ -808,16 +885,16 @@
                                             <label class="custom-control-label" for="y9"></label>
                                         </div>
                                         </td>
-                                        <td><div class='number'><span> 90 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 91 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 92 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 93 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 94 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 95 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 96 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 97 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 98 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
-                                        <td><div class='number'><span> 99 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
+                                        <td><div class='number'><span> 90 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 91 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 92 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 93 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 94 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 95 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 96 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 97 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 98 </span><input type="text" value="705"></div></td>
+                                        <td><div class='number'><span> 99 </span><input type="text" value="705"></div></td>
                                     </tr>
                                     <!-- /tr -->
                                     </tbody>
@@ -837,23 +914,61 @@
                   <!-- grid column -->
                   <div class="col-12 col-lg-6 col-xl-3">
                     <!-- .card -->
-                    <section class="card">
+                    <section class="card card-lo-xien">
                         <!-- .card-header -->
-                        <header class="card-header"><span>Đặt cược</span> <span style="float: right;">Đề - Miền Bắc 1 </span></header>
+                        <header class="card-header"><span>Đặt cược</span> <span style="float: right;">Lô Xiên - Miền Bắc 1 </span></header>
                         <!-- .card-body -->
                         <div class="card-body">
-                            <div class="form-row">
-                                <!-- grid column -->
-                                <div class="col-md-4" style="padding: 5px;text-align: right;text-transform: uppercase; ">
+                        <div class="form-row">
+                                <div class="col-3 col-md-3" style="padding: 5px;text-align: right;text-transform: uppercase; font-size: 11px; line-height: 25px;">
+                                    
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span>Xiên 2</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span>Xiên 3</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span>Xiên 4</span>
+                                </div>
+                            </div>    
+
+                            <div class="form-row lx-so-xien">
+                                <div class="col-3 col-md-3" style="padding: 5px;text-align: right;text-transform: uppercase; font-size: 11px; line-height: 16px;">
+                                    Số xiên
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span style="line-height: 25px;">0</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span style="line-height: 25px;">1</span>
+                                </div>
+                                <div class="col-3 col-md-3" style="text-align: center;">
+                                    <span style="line-height: 25px;">2</span>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="form-row lx-so-diem">
+                                <div class="col-3 col-md-3" style="padding: 5px;text-align: right;text-transform: uppercase; font-size: 11px; line-height: 25px;">
                                     Số điểm
                                 </div>
-                                <!-- /grid column -->
-                                <!-- grid column -->
-                                <div class="col-md-8">
+                                <div class="col-3 col-md-3">
                                     <input type="text" class="form-control" placeholder="0">
                                 </div>
-                                <!-- /grid column -->
+                                <div class="col-3 col-md-3">
+                                    <input type="text" class="form-control" placeholder="0">
+                                </div>
+                                <div class="col-3 col-md-3">
+                                    <input type="text" class="form-control" placeholder="0">
+                                </div>
                             </div>
+
+                            
+
+
                             <div class="form-row">
                                 <!-- grid column -->
                                 <div class="col-4 col-md-4" style="padding: 5px;text-align: right;text-transform: uppercase; ">
@@ -872,100 +987,51 @@
                             </div>
 
                             <div class="form-row">
-                                <!-- grid column -->
-                                <div class="col-md-4" style="font-weight:bold">
-                                    Tổng điểm
+                                <div class="col-4 col-md-4" style="font-weight:bold; text-transform: uppercase;">
+                                    Danh sách
                                 </div>
-                                <!-- /grid column -->
-                                <!-- grid column -->
-                                <div class="col-md-8">
-                                    999.999
+                                <div class="col-8 col-md-8">
+                                    00, 01, 02
                                 </div>
-                                <!-- /grid column -->
                             </div>
 
                             <div class="form-row">
-                                <!-- grid column -->
-                                <div class="col-md-4" style="font-weight:bold">
+                                <div class="col-4 col-md-4" style="font-weight:bold; text-transform: uppercase;">
                                     Thành tiền
                                 </div>
-                                <!-- /grid column -->
-                                <!-- grid column -->
-                                <div class="col-md-8">
-                                    1.000.0000.000 đ
+                                <div class="col-8 col-md-8">
                                 </div>
-                                <!-- /grid column -->
                             </div>
+
+                            <div class="form-row">
+                                <div class="col-4 col-md-4">
+                                    <span>Xiên 2</span>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    2.000.000đ
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-4 col-md-4">
+                                    <span>Xiên 3</span>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    3.000.000đ
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-4 col-md-4">
+                                    <span>Xiên 4</span>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    4.000.000đ
+                                </div>
+                            </div>
+
                         </div>
                         <!-- /.card-body -->
                     </section>
                     <!-- /.card -->
-
-                    <section class="card">
-                        <!-- .card-header -->
-                        <header class="card-header"><span>Mã cược gần đây</span></header>
-                        <!-- .card-body -->
-                        <div class="card-body">
-                            <section class="card card-expansion-item ma-cuoc-gan-day-item">
-                            <header class="card-header border-0" id="headingOne">
-                                <button class="btn btn-reset collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <span class="collapse-indicator mr-2">
-                                    <i class="fa fa-fw fa-caret-right"></i>
-                                </span>
-                                <span>2,200 #1</span>
-                                </button>
-                            </header>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
-                                <div class="card-body pt-0">
-                                    <h6>ĐỀ - HÀ NỘI</h6>
-                                    <div>
-                                        <span>Danh sách: </span>
-                                        <span class="text-right">00,01,02</span>
-                                    </div>
-                                    <div>
-                                        <span>Tổng điểm: </span>
-                                        <span class="text-right">3</span>
-                                    </div>
-                                    <div>
-                                        <span>Thành tiền: </span>
-                                        <span class="text-right">2,200</span>
-                                    </div>
-                                </div>
-                            </div>
-                            </section>
-
-                            <section class="card card-expansion-item ma-cuoc-gan-day-item">
-                            <header class="card-header border-0" id="headingOne">
-                                <button class="btn btn-reset collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseOne">
-                                <span class="collapse-indicator mr-2">
-                                    <i class="fa fa-fw fa-caret-right"></i>
-                                </span>
-                                <span>9,200 #2</span>
-                                </button>
-                            </header>
-                            <div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
-                                <div class="card-body pt-0">
-                                    <h6>ĐỀ - HÀ NỘI</h6>
-                                    <div>
-                                        <span>Danh sách: </span>
-                                        <span class="text-right">05,06,07</span>
-                                    </div>
-                                    <div>
-                                        <span>Tổng điểm: </span>
-                                        <span class="text-right">9</span>
-                                    </div>
-                                    <div>
-                                        <span>Thành tiền: </span>
-                                        <span class="text-right">9,200</span>
-                                    </div>
-                                </div>
-                            </div>
-                            </section>
-
-
-                        </div>
-                        <!-- /.card-body -->
-                    </section>
 
                     <!-- .card -->
                     <section class="card card-fluid">
@@ -1019,10 +1085,6 @@
             
             $('.number').click(function(){
                 $(this).toggleClass('number-selected');
-            });
-
-            $('.number input').on('click', function(event) {
-                event.stopPropagation();
             });
             
         });
