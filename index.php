@@ -105,14 +105,11 @@
             .table-select-number .span-gia{
                 display:none;
             }
-        }
-
-
-        @media (min-width: 600px) {
-            .btn-loai-tro-choi {
+            .menu-bar-loai-tro-choi {
                 display: none !important;
             }
         }
+
         @media (max-width: 600px) {
             .menu-loai-tro-choi{
                 display: none;
@@ -123,6 +120,10 @@
             .btn-account {
                 border:none !important;
                 padding-left: 0px !important;
+            }
+
+            .page-inner {
+                padding: 0;
             }
         }
     </style>
@@ -203,7 +204,7 @@
           <!-- .page -->
           <div class="page">
             <!-- .page-inner -->
-            <div class="page-inner" style="padding:0">
+            <div class="page-inner">
               
               <!-- .page-section -->
               <div class="page-section">
@@ -214,7 +215,7 @@
                     <!-- <button style="font-size: 12px;width: 50%;margin: 0 auto;display: block;margin-bottom: 10px;" type="button" class="btn btn-primary btn-loai-tro-choi" data-toggle="dropdown" aria-expanded="false">Danh mục trò chơi<span class="caret"></span>
                     </button> -->
 
-                    <div class="row" style="background: #1957a3;">
+                    <div class="row menu-bar-loai-tro-choi" style="background: #1957a3;">
                         <div class="col-2">
                         <button class="hamburger hamburger hamburger-squeeze js-hamburger d-lg-none btn-loai-tro-choi" type="button">
                             <span class="hamburger-box">
