@@ -555,31 +555,31 @@
                                     </div>
                                     <div class="col-11">
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">1</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">1</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-info btn-xs">2</button>
+                                            <a href="#" class="tile bg-primary tile-circle tile-sm">2</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">3</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">3</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">4</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">4</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">5</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">5</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">6</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">6</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">7</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">7</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">8</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">8</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">9</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">9</a>
                                         </div>
                                     </div>
                                 </div>
@@ -591,31 +591,31 @@
                                     </div>
                                     <div class="col-11">
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">1</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">1</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">2</button>
+                                            <a href="#" class="tile bg-secondary tile-circle tile-sm">2</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">3</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">3</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">4</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">4</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">5</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">5</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">6</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">6</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">7</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">7</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">8</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">8</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="Third group">
-                                            <button type="button" class="btn btn-secondary btn-xs">9</button>
+                                            <a href="#" class="tile btn-secondary tile-circle tile-sm">9</a>
                                         </div>
                                     </div>
                                 </div>
