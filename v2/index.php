@@ -379,7 +379,7 @@
                                 <button style="font-size: 12px; width: 100%;" type="button" class="btn btn-primary btn-them-day-so">Thêm</button>
                             </div>
                             <div class="col-4 col-md-4 quick-select-group">
-                                <button style="font-size: 12px; width: 100%;" type="button" class="btn btn-info btn-quick-select" data-toggle="dropdown" aria-expanded="false">Chọn nhanh
+                                <button style="font-size: 12px; width: 100%;" type="button" class="btn btn-success btn-quick-select" data-toggle="dropdown" aria-expanded="false">Chọn nhanh
                                     <span class="caret"></span>
                                 </button>
                             </div>
