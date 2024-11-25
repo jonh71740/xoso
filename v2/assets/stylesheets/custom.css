@@ -3,3 +3,17 @@
 .menu-bar-loai-tro-choi{
     background: #007765 !important;
 }
+
+body{
+    font-family: arial !important;
+    color: #1A3636 !important;
+}
+
+.table-select-number .number-selected {
+    background: #ddcaa8 !important;
+    border-radius: 5px !important;
+}
+
+.table-select-number input {
+    border-radius: 6px !important;
+}

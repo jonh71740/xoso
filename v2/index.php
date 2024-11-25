@@ -174,7 +174,7 @@
                 <div class="dropdown">
                     <button style="min-height: 2.5rem; background: none;" class="btn-account d-md-flex" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
                     <span class="user-avatar">
-                        <img src="assets/images/avatars/profile.jpg" alt="">
+                        <img src="avatar.jpg" alt="">
                     </span>
                     <span class="account-summary pr-lg-4 d-lg-block">
                         <span class="account-name">username</span>
@@ -237,22 +237,16 @@
                                 <!-- .menu-item -->
                                 <li class="menu-item has-child">
                                     <a href="#" class="menu-link">
-                                        <span class="menu-icon oi oi-pencil"></span>
+                                        <span class="menu-icon oi oi-chevron-right"></span>
                                         <span class="menu-text">Miền Bắc 1</span>
                                     </a>
                                     <!-- child menu -->
                                     <ul class="menu"><li class="menu-subhead">Miền Bắc 2</li>
                                         <li class="menu-item">
-                                        <a href="form-basic.html" class="menu-link" tabindex="-1">Đề</a>
+                                        <a href="#" class="menu-link" tabindex="-1">Đề</a>
                                         </li>
                                         <li class="menu-item">
-                                        <a href="form-autocompletes.html" class="menu-link" tabindex="-1">Lô</a>
-                                        </li>
-                                        <li class="menu-item">
-                                        <a href="form-pickers.html" class="menu-link" tabindex="-1">Pickers</a>
-                                        </li>
-                                        <li class="menu-item">
-                                        <a href="form-editors.html" class="menu-link" tabindex="-1">Editors</a>
+                                        <a href="#" class="menu-link" tabindex="-1">Lô</a>
                                         </li>
                                     </ul>
                                     <!-- /child menu -->
@@ -261,17 +255,17 @@
                                 <!-- .menu-item -->
                                 <li class="menu-item has-child">
                                 <a href="#" class="menu-link">
-                                    <span class="menu-icon oi oi-grid-two-up"></span>
+                                    <span class="menu-icon oi oi-chevron-right"></span>
                                     <span class="menu-text">Miền Bắc 2</span>
                                 </a>
                                 <!-- child menu -->
                                 <ul class="menu"><li class="menu-subhead">Xóc đĩa 789</li>
-                                    <li class="menu-item">
-                                    <a href="table-basic.html" class="menu-link" tabindex="-1">Basic Table</a>
-                                    </li>
-                                    <li class="menu-item">
-                                    <a href="table-datatables.html" class="menu-link" tabindex="-1">Datatables</a>
-                                    </li>
+                                        <li class="menu-item">
+                                        <a href="#" class="menu-link" tabindex="-1">Đề</a>
+                                        </li>
+                                        <li class="menu-item">
+                                        <a href="#" class="menu-link" tabindex="-1">Lô</a>
+                                        </li>
                                 </ul>
                                 <!-- /child menu -->
                                 </li>
@@ -280,22 +274,19 @@
                                 <!-- .menu-item -->
                                 <li class="menu-item has-child">
                                     <a href="#" class="menu-link">
-                                        <span class="menu-icon oi oi-pencil"></span>
+                                        <span class="menu-icon oi oi-chevron-right"></span>
                                         <span class="menu-text">Miền Nam</span>
                                     </a>
                                     <!-- child menu -->
                                     <ul class="menu"><li class="menu-subhead">Miền Nam</li>
                                         <li class="menu-item">
-                                        <a href="form-basic.html" class="menu-link" tabindex="-1">Basic Elements</a>
+                                        <a href="#" class="menu-link" tabindex="-1">3d</a>
                                         </li>
                                         <li class="menu-item">
-                                        <a href="form-autocompletes.html" class="menu-link" tabindex="-1">Autocompletes</a>
+                                        <a href="#" class="menu-link" tabindex="-1">3d2</a>
                                         </li>
                                         <li class="menu-item">
-                                        <a href="form-pickers.html" class="menu-link" tabindex="-1">Pickers</a>
-                                        </li>
-                                        <li class="menu-item">
-                                        <a href="form-editors.html" class="menu-link" tabindex="-1">Editors</a>
+                                        <a href="#" class="menu-link" tabindex="-1">3d3</a>
                                         </li>
                                     </ul>
                                     <!-- /child menu -->
@@ -303,60 +294,7 @@
                                 <!-- /.menu-item -->
 
 
-                                <!-- .menu-item -->
-                                <li class="menu-item has-child">
-                                <a href="#" class="menu-link">
-                                    <span class="menu-icon oi oi-bar-chart"></span>
-                                    <span class="menu-text">Bong88</span>
-                                </a>
-                                <!-- child menu -->
-                                <ul class="menu"><li class="menu-subhead">Bong88</li>
-                                    <li class="menu-item has-child">
-                                    <a href="#" class="menu-link" tabindex="-1">Chart.js</a>
-                                    <!-- grand child menu -->
-                                    <ul class="menu">
-                                        <li class="menu-item">
-                                        <a href="collection-chartjs-line.html" class="menu-link" tabindex="-1">Line</a>
-                                        </li>
-                                        <li class="menu-item">
-                                        <a href="collection-chartjs-bar.html" class="menu-link" tabindex="-1">Bar</a>
-                                        </li>
-                                        <li class="menu-item">
-                                        <a href="collection-chartjs-radar-scatter.html" class="menu-link" tabindex="-1">Radar &amp; Scatter</a>
-                                        </li>
-                                        <li class="menu-item">
-                                        <a href="collection-chartjs-others.html" class="menu-link" tabindex="-1">Others</a>
-                                        </li>
-                                    </ul>
-                                    <!-- /grand child menu -->
-                                    </li>
-                                    <li class="menu-item">
-                                    <a href="collection-flot-charts.html" class="menu-link" tabindex="-1">Flot</a>
-                                    </li>
-                                    <li class="menu-item">
-                                    <a href="collection-inline-charts.html" class="menu-link" tabindex="-1">Inline charts</a>
-                                    </li>
-                                    <li class="menu-item">
-                                    <a href="collection-jqvmap.html" class="menu-link" tabindex="-1">Vector Map</a>
-                                    </li>
-                                </ul>
-                                <!-- /child menu -->
-                                </li>
-                                <!-- /.menu-item -->
-
-                                <li class="menu-item">
-                                <a href="index.html" class="menu-link">
-                                    <span class="menu-icon oi oi-dashboard"></span>
-                                    <span class="menu-text">Thông báo</span>
-                                </a>
-                                </li>
-
-                                <li class="menu-item">
-                                <a href="index.html" class="menu-link">
-                                    <span class="menu-icon oi oi-browser"></span>
-                                    <span class="menu-text">Kết quả</span>
-                                </a>
-                                </li>
+                                
 
                             </ul>
                             <!-- /.menu -->
