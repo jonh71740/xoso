@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: arial !important;
+    font-family: emoji !important;
     color: #1A3636 !important;
 }
 
@@ -16,4 +16,8 @@ body{
 
 .table-select-number input {
     border-radius: 6px !important;
+}
+
+.table-select-number .number {
+    border-radius: 5px !important;
 }
