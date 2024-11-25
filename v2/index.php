@@ -33,7 +33,7 @@
     <!-- END PLUGINS STYLES -->
     <!-- BEGIN THEME STYLES -->
     <link rel="stylesheet" href="assets/stylesheets/main.min.css">
-    <link rel="stylesheet" href="assets/stylesheets/custom.css">
+    <link rel="stylesheet" href="assets/stylesheets/custom.css?a=<?php echo(rand(10,100000)); ?>">
     <!-- END THEME STYLES -->
     <style>
        .navbar {
