@@ -21,3 +21,38 @@ body{
 .table-select-number .number {
     border-radius: 5px !important;
 }
+
+
+
+
+.col-checker {
+    width: 0 !important;
+    text-align: right;
+}
+
+.custom-control-inline {
+    margin-right: 0 !important;
+}
+
+.custom-control {
+    padding-left: 0.7rem;
+}
+
+
+.btn2{
+    border: 2px solid #0179a8 !important;
+    border-radius: 30px !important;
+}
+
+input[type='text']{
+    border: 2px solid #0179a8 !important;
+    border-radius: 30px !important;
+}
+
+.number input[type='text']{
+    border: 2px solid #fff !important;
+    border-radius: 30px !important;
+}
+.number{
+    color: #503301;
+}

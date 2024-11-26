@@ -314,10 +314,10 @@
                                 <input type="text" class="form-control form-control-sm form-nhap-so" placeholder="Dãy số">
                             </div>
                             <div class="col-2 col-md-2 quick-select-group">
-                                <button style="font-size: 12px; width: 100%;" type="button" class="btn btn-primary btn-them-day-so">Thêm</button>
+                                <button style="font-size: 12px; width: 100%;" type="button" class="btn btn2 btn-primary btn-them-day-so">Thêm</button>
                             </div>
                             <div class="col-4 col-md-4 quick-select-group">
-                                <button style="font-size: 12px; width: 100%;" type="button" class="btn btn-success btn-quick-select" data-toggle="dropdown" aria-expanded="false">Chọn nhanh
+                                <button style="font-size: 12px; width: 100%;" type="button" class="btn btn2 btn-success btn-quick-select" data-toggle="dropdown" aria-expanded="false">Chọn nhanh
                                     <span class="caret"></span>
                                 </button>
                             </div>
@@ -335,13 +335,13 @@
                                         <a class="nav-link" data-toggle="tab" href="#card-profile">Dàn</a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#card-profile">Số kép</a>
+                                        <a class="nav-link" data-toggle="tab" href="#card-profile2">Số kép</a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#card-profile">Tổng</a>
+                                        <a class="nav-link" data-toggle="tab" href="#card-profile3">Tổng</a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#card-profile">Đầu đuôi</a>
+                                        <a class="nav-link" data-toggle="tab" href="#card-profile4">Đầu đuôi</a>
                                         </li>
                                     </ul>
                                     </header>
@@ -427,58 +427,93 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="card-profile">
-                                        <div class="row">
+                                            <div class="row">
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1" checked="">
-                                                        <label class="custom-control-label" for="rd1">05 có kép(36)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a1">
+                                                        <label class="custom-control-label" for="a1">aaa</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">bỏ kép(9)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a2">
+                                                        <label class="custom-control-label" for="a2">bbb</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Dần(9)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Mão(9)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Thìn(8)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Tị(8)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Ngọ(8)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-3 col-md-3">
-                                                    <div class="custom-control custom-radio mb-1">
-                                                        <input type="radio" class="custom-control-input" id="rd1">
-                                                        <label class="custom-control-label" for="rd1">Mùi(8)</label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a3">
+                                                        <label class="custom-control-label" for="a3">ddd</label>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                        <div class="tab-pane fade" id="card-profile2">
+                                            <div class="row">
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a1">
+                                                        <label class="custom-control-label" for="a1">aaa2</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a2">
+                                                        <label class="custom-control-label" for="a2">bbb2</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a3">
+                                                        <label class="custom-control-label" for="a3">ddd2</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="card-profile3">
+                                            <div class="row">
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a1">
+                                                        <label class="custom-control-label" for="a1">aaa3</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a2">
+                                                        <label class="custom-control-label" for="a2">bbb3</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a3">
+                                                        <label class="custom-control-label" for="a3">ddd3</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="card-profile4">
+                                            <div class="row">
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a1">
+                                                        <label class="custom-control-label" for="a1">aaa4</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a2">
+                                                        <label class="custom-control-label" for="a2">bbb4</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3 col-md-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="a3">
+                                                        <label class="custom-control-label" for="a3">ddd4</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     <!-- /.tab-content -->
                                     </div>
                                     <!-- /.card-body -->
@@ -494,68 +529,68 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x0">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x0" id="x0" >
                                                 <label class="custom-control-label" for="x0"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x1">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x1" id="x1" >
                                                 <label class="custom-control-label" for="x1"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x2">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x2" id="x2" >
                                                 <label class="custom-control-label" for="x2"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x3">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x3" id="x3" >
                                                 <label class="custom-control-label" for="x3"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x4">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x4" id="x4" >
                                                 <label class="custom-control-label" for="x4"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x5">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x5" id="x5" >
                                                 <label class="custom-control-label" for="x5"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x6">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x6" id="x6" >
                                                 <label class="custom-control-label" for="x6"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x7">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x7" id="x7" >
                                                 <label class="custom-control-label" for="x7"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x8">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x8" id="x8" >
                                                 <label class="custom-control-label" for="x8"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x9">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x9" id="x9" >
                                                 <label class="custom-control-label" for="x9"></label>
                                             </div>
                                         </td>
                                         <td class="align-middle col-checker">
-                                            <div class="custom-control custom-control-nolabel custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="x10">
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="x10" id="x10" >
                                                 <label class="custom-control-label" for="x10"></label>
                                             </div>
                                         </td>
@@ -564,10 +599,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y0">
-                                            <label class="custom-control-label" for="y0"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y0" id="y0" >
+                                                <label class="custom-control-label" for="y0"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 00 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 01 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -584,10 +619,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y1">
-                                            <label class="custom-control-label" for="y1"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y1" id="y1" >
+                                                <label class="custom-control-label" for="y1"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -604,10 +639,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y2">
-                                            <label class="custom-control-label" for="y2"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y2" id="y2" >
+                                                <label class="custom-control-label" for="y2"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 20 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 21 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -624,10 +659,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y3">
-                                            <label class="custom-control-label" for="y3"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y3" id="y3" >
+                                                <label class="custom-control-label" for="y3"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 30 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 31 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -644,10 +679,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y4">
-                                            <label class="custom-control-label" for="y4"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y4" id="y4" >
+                                                <label class="custom-control-label" for="y4"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 40 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 41 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -664,10 +699,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y5">
-                                            <label class="custom-control-label" for="y5"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y5" id="y5" >
+                                                <label class="custom-control-label" for="y5"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -684,10 +719,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y6">
-                                            <label class="custom-control-label" for="y6"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y6" id="y6" >
+                                                <label class="custom-control-label" for="y6"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -704,10 +739,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y7">
-                                            <label class="custom-control-label" for="y7"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y7" id="y7" >
+                                                <label class="custom-control-label" for="y7"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -724,10 +759,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y8">
-                                            <label class="custom-control-label" for="y8"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y8" id="y8" >
+                                                <label class="custom-control-label" for="y8"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 10 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 11 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -744,10 +779,10 @@
                                     <!-- tr -->
                                     <tr>
                                         <td class="align-middle col-checker">
-                                        <div class="custom-control custom-control-nolabel custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" name="selectedRow[]" id="y9">
-                                            <label class="custom-control-label" for="y9"></label>
-                                        </div>
+                                            <div class="custom-control custom-control-inline custom-radio">
+                                                <input type="radio" class="custom-control-input" name="y9" id="y9" >
+                                                <label class="custom-control-label" for="y9"></label>
+                                            </div>
                                         </td>
                                         <td><div class='number'><span> 90 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
                                         <td><div class='number'><span> 91 </span><input type="text" value="705"><span class="span-gia">708</span></div></td>
@@ -798,12 +833,12 @@
                             <div class="form-row">
                                 <!-- grid column -->
                                 <div class="col-4 col-md-4" style="padding: 5px;text-align: right;text-transform: uppercase; ">
-                                    <button style="width: 100%;" type="button" class="btn btn-warning">Hủy</button>
+                                    <button style="width: 100%;" type="button" class="btn btn2 btn-warning">Hủy</button>
                                 </div>
                                 <!-- /grid column -->
                                 <!-- grid column -->
                                 <div class="col-8 col-md-8" style="padding: 5px;text-align: right;text-transform: uppercase; ">
-                                    <button style="width: 100%;" type="button" class="btn btn-success">Đặt cược</button>
+                                    <button style="width: 100%;" type="button" class="btn btn2 btn-success">Đặt cược</button>
                                 </div>
                                 <!-- /grid column -->
                             </div>
